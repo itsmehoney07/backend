@@ -4,16 +4,16 @@
     "description": "backend project",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-      "javascript",
-      "backend"
+        "javascript",
+        "backend"
     ],
     "author": "Harshit Nath",
     "license": "ISC",
     "devDependencies": {
-        "nodemon": "^3.1.2"
-      }
-  }
-  
+        "nodemon": "^3.1.2",
+        "prettier": "^3.2.5"
+    }
+}
