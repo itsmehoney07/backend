@@ -1,15 +1,19 @@
 {
-  "name": "advance_backend",
-  "version": "1.0.0",
-  "description": "backend project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "author": "Harshit Nath",
-  "license": "ISC"
-}
+    "name": "advance_backend",
+    "version": "1.0.0",
+    "description": "backend project",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "javascript",
+      "backend"
+    ],
+    "author": "Harshit Nath",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.2"
+      }
+  }
+  
