@@ -47,6 +47,7 @@ const userSchema = new Schema({
     timestamps:true
 }
 );
+//using  
 userSchema.pre("save",async function (next) {
     if(!this.isModified("password")) return next();
     this.password=bcrypt.hash(this.password, 10);
@@ -83,4 +84,4 @@ userSchema.methods.generateRefreshToken= function(){
         }
     )
 };
-export default User = mongoose.model("User",userSchema);
+export const User = mongoose.model("User",userSchema);
